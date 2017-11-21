@@ -18,7 +18,9 @@ mysqlssh
 					fs.createWriteStream(
 						path.resolve(
 							__dirname,
-							moment().format("YYYYMMDD") + ".csv"
+							moment()
+								.utc()
+								.format("YYYYMMDD") + ".csv"
 						),
 						{
 							flags: "a"

@@ -3,6 +3,7 @@ const config = require("./config");
 const moment = require("moment");
 const csvWriter = require("csv-write-stream");
 const fs = require("fs");
+const path = require("path");
 
 mysqlssh
 	.connect(config.ssh, config.mysql)

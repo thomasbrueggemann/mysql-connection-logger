@@ -1,2 +1,3 @@
-# mysql-connection-logger
-🔌 MySQL Connection Logger
+# 🔌 MySQL Connection Logger
+
+Logs the open connections
